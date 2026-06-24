@@ -1,7 +1,7 @@
-## 🔐 Seok Eunho (석은호)
+﻿## 🔐 Seok Eunho (석은호)
 
-🎓 Soongsil University  
-Information Security · 2026  
+🎓 Soongsil University
+Information Security · 2026
 🛡️ Security Researcher / CTF Player
 
 ---
