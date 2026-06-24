@@ -1,4 +1,4 @@
-﻿## 🔐 Seok Eunho (석은호)
+﻿## 🔐 Suk Eunho (석은호)
 
 🎓 Soongsil University
 Information Security · 2026
@@ -9,9 +9,8 @@ Information Security · 2026
 ### 🙋 About Me
 
 - 보안 취약점 분석과 CTF 문제 풀이를 즐기는 정보보호학과 학생입니다.
-- 시스템 해킹(Pwnable), 리버싱(Reversing) 분야에 관심이 많습니다.
-- 낮은 레벨부터 이해하는 것을 좋아해서 C/C++과 Python을 주로 씁니다.
-- 꾸준히 공부하고 기록하는 것을 목표로 하고 있습니다.
+- WEB, Crypto 분야에 관심이 많습니다.
+- C/C++과 Python을 주로 씁니다.
 
 ---
 
@@ -51,4 +50,4 @@ Information Security · 2026
 
 ### 📫 Contact
 
-📧 freeim7144@gmail.com
+📧 eunho08077@gmail.com
