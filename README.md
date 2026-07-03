@@ -30,14 +30,6 @@ Information Security · 2026
 
 ---
 
-### 🏆 CTF / 활동
-
-| 플랫폼 | 내용 |
-|--------|------|
-| HackTheBox | 머신 풀이 및 챌린지 |
-| TryHackMe | 학습 경로 진행 중 |
-
----
 
 ### 📊 GitHub Stats
 
