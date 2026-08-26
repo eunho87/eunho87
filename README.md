@@ -42,7 +42,7 @@
 ### 📊 GitHub Stats
 
 <div align="center">
-  <img width="80%" src="https://raw.githubusercontent.com/eunho87/eunho87/main/github-metrics.svg" alt="Metrics" />
+  <img src="https://github-readme-stats-rho-opal-37.vercel.app/api?username=eunho87&hide=contribs,commits&show=prs_merged&show_icons=true&theme=tokyonight&hide_border=true&count_private=true" alt="stats" />
 </div>
 
 ---
