@@ -1,0 +1,35 @@
+name: Metrics
+on:
+  # 매일 00:00 UTC(한국 09:00)에 자동 갱신
+  schedule:
+    - cron: "0 0 * * *"
+  # 저장소 Actions 탭에서 수동 실행도 가능
+  workflow_dispatch:
+  push:
+    branches:
+      - main
+
+jobs:
+  github-metrics:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    steps:
+      - uses: lowlighter/metrics@latest
+        with:
+          # 아래 3에서 만든 PAT를 저장소 Secret(METRICS_TOKEN)으로 등록
+          token: ${{ secrets.METRICS_TOKEN }}
+          user: eunho87
+          filename: github-metrics.svg
+
+          # 커밋/PR/이슈/리뷰가 나오는 기본 섹션
+          base: header, activity, community, repositories, metadata
+          config_timezone: Asia/Seoul
+
+          # 1년치 커밋 잔디(달력형) — "실제로 일한다" 느낌
+          plugin_isocalendar: yes
+          plugin_isocalendar_duration: full_year
+
+          # 많이 쓴 언어 비율
+          plugin_languages: yes
+          plugin_languages_details: bytes-size, percentage
