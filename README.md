@@ -17,8 +17,6 @@
 
 ### 🧑‍💻 About me
 
-### 🧑‍💻 About me
-
 - 🎓 ssu - infosecurity
 - 🔐 CTF · 보안 취약점 분석 (Web / Pwnable / Reversing)
 - 🛠️ 주력 언어: Python, C/C++
